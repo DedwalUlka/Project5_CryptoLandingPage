@@ -1,0 +1,91 @@
+/*  --- Project 5 --- */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: crossorigin, Montserrat, Poppins;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.container{
+  height: 130vh;
+  background-image: linear-gradient(20deg, #22295785 55%, #1E255585 75%), url(./assets/CryptoLandingBg.jpg);
+  background-size: cover;
+  background-position: 20% 60%;
+}
+/*--- Navbar Start ---*/
+.container>section:first-child{
+  height: 10vh;
+  background-color: #000000;
+}
+nav>div{
+  margin-top: 5px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.logo{
+  margin-left: 90%;
+  height: 30px;
+}
+.line{
+  height: 30px;
+  width: 4px;
+  background-color: #EFEFFF;
+}
+.grow-list{
+  width:49%
+}
+.list{
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+.list-item:hover{
+  font-size:17px;
+  color: #BA0CC5;
+}
+.navbar>div:last-child{
+  width:12%;
+  margin-right: 3%;
+}
+button{
+  padding: 10px 19px;
+  border:none;
+  background-color: #BA0CC5;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: #FFFFFF;
+  color:#BA0CC5;
+  border:solid 2px #FFFFFF;
+  font-size: 15px;
+}
+.container>section:last-child{
+  height:80vh;
+}
+.hero{
+  height: 80vh;
+  text-align: center;
+}
+.hero-heading{
+  margin-top: 9%;
+  font-size: 430%;
+  margin-bottom: 2%;
+}
+.hero-description{
+  font-size:22px;
+  margin-bottom: 4%;
+}
+.button-larger{
+  font-size:23px;
+}
